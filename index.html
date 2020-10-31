@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Flooring Shop</title>
+
+    <!--jsDelivr CDN-->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+
+    <!-- Bootstrap CDN-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!--Slick CDN-->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+
+    <!--Font Awesome CDN-->
+    <script src="https://kit.fontawesome.com/54542074ae.js" crossorigin="anonymous"></script>
+
+    <!--Custom Stylesheet-->
+    <link rel="stylesheet" href="./css/style.css"/>
+</head>
+<body>
+
+    <!--Header-->
+    <header>
+        <div class="container-fluid" id="home">
+            <div class="row">
+                <div class="col-md-4 col-sm-12 col-12">
+                    <img src="./assets/logo.png" alt="the logo" height="100">
+                </div>
+                <div class="col-md-4 col-12 text-center">
+                    <h2 class="my-md-3 site-title text-white">The Flooring Shop</h2>
+                    <h2 class="section-subtitles" style="color: white;">Top Quality Flooring, wholesale prices</h2>
+
+                </div>
+                <div class="col-md-4 col-12 text-right">
+                    <p class="my-md-4 header-links">
+                        <a href="#info" class="px-2">GET DIRECTIONS</a>
+                    </p>
+                    <p class="my-md-4 header-links">
+                        <a href="#home" class="px-2">(248) 800-7700 </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid p-0">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#home">HOME <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#our-work">OUR WORK</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#ih-estimate">REQUEST IN-HOME ESTIMATE</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#reviews">REVIEWS</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#info">STORE INFO AND DIRECTIONS</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#get-the-app">GET OUR APP!</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+        </div>
+    </header>
+
+
+    <!--Main-->
+    <main>
+        <!--First Slider-->
+        <div class="container-fluid p-0"> 
+            <div class="site-slider">
+                <div class="slider-one">
+                    <div> <!--First carousel item-->
+                        <img src="./assets/banneru.png" class="imgfluid" height="750" width=100% alt="Get an Estimate">
+                        <button class="banner-button-one"><a class="nav-link-alt" href="#ih-estimate">Get Free in-home estimate</a> </button>
+                        
+                    </div>
+
+                    <div> <!--Second carousel item-->
+                        <img src="./assets/banner2.png" class="imgfluid" height="750" width=100% alt="Booking">
+                        <button class="banner-button"><a class="nav-link-alt" href="#our-work">Our Work</a> </button>
+                    </div>
+                </div>
+                <div class="slider-btn">
+                    <span class="prev position-top"><i class="fas fa-chevron-left"></i></span>
+                    <span class="next position-top right-0"><i class="fas fa-chevron-right"></i></span>
+                </div>
+            </div>
+        </div>
+        <!--End First Slider-->
+
+        <br>
+        <br>
+        <br>
+        <div id="our-work">
+            <img src="./assets/decoration.png" class="section-decoration" alt="decoration">
+            <h2 class="section-titles">Our Work</h2>
+            <p class="section-subtitles">We have all the flooring you need!</p>
+            <p class="section-subtitles">We have been in this business for 25 years, striving to meet everyone's flooring needs at wholesale prices.</p>
+            <p class="section-subtitles">We ship all of our flooring products directly from the manufacturer in Dalton, Georgia.</p>
+            <p class="section-subtitles">Products are shipped in truckloads to keep our costs down and share the savings with all the customers!</p>
+            <p class="section-subtitles">No one can beat our prices, Period.</p>
+        </div>
+
+        <!--Infinite Products Slider-->
+        <div class="container-fluid">
+            <div class="site-slider-two px-md-4">
+                <div class="row slider-two text-center">
+
+                    
+                    <div class="col-md-2 product pt-md-5 pt-4">
+                        <img src="./assets/1.jpg" alt="product 1" height=400 width="100%">
+                    </div>
+
+                    <div class="col-md-2 product pt-md-5 pt-4">
+                        <img src="./assets/2.jpg" alt="product 2" height=400 width="100%">
+                    </div>
+
+                    <div class="col-md-2 product pt-md-5 pt-4">
+                        <img src="./assets/3.jpg" alt="product 3" height=400 width="100%">
+                    </div>
+
+                    <div class="col-md-2 product pt-md-5 pt-4">
+                        <img src="./assets/4.jpg" alt="product 4" height=400 width="100%">
+                    </div>
+
+                    <div class="col-md-2 product pt-md-5 pt-4">
+                        <img src="./assets/5.jpg" alt="product 5" height=400 width="100%">
+                    </div>
+
+                    <div class="col-md-2 product pt-md-5 pt-4">
+                        <img src="./assets/6.jpg" alt="product 6" height=400 width="100%">
+                    </div>
+
+                    <div class="col-md-2 product pt-md-5 pt-4">
+                        <img src="./assets/7.jpg" alt="product 7" height=400 width="100%">
+                    </div>
+
+                    <div class="col-md-2 product pt-md-5 pt-4">
+                        <img src="./assets/8.jpg" alt="product 8" height=400 width="100%">
+                    </div>
+
+                    <div class="col-md-2 product pt-md-5 pt-4">
+                        <img src="./assets/9.jpg" alt="product 9" height=400 width="100%">
+                    </div>
+
+                    <div class="col-md-2 product pt-md-5 pt-4">
+                        <img src="./assets/10.jpg" alt="product 10" height=400 width="100%">
+                    </div>
+
+                    <div class="col-md-2 product pt-md-5 pt-4">
+                        <img src="./assets/11.jpg" alt="product 11" height=400 width="100%">
+                    </div>
+
+                    <div class="col-md-2 product pt-md-5 pt-4">
+                        <img src="./assets/12.jpg" alt="product 12" height=400 width="100%">
+                    </div>
+
+                    <div class="col-md-2 product pt-md-5 pt-4">
+                        <img src="./assets/13.jpg" alt="product 13" height=400 width="100%">
+                    </div>
+
+                    <div class="col-md-2 product pt-md-5 pt-4">
+                        <img src="./assets/14.jpg" alt="product 14" height=400 width="100%">
+                    </div>
+
+                    <div class="col-md-2 product pt-md-5 pt-4">
+                        <img src="./assets/15.jpg" alt="product 15" height=400 width="100%">
+                    </div>
+
+                    <div class="col-md-2 product pt-md-5 pt-4">
+                        <img src="./assets/16.jpg" alt="product 16" height=400 width="100%">
+                    </div>
+
+                    <div class="col-md-2 product pt-md-5 pt-4">
+                        <img src="./assets/17.jpg" alt="product 17" height=400 width="100%">
+                    </div>
+
+                    <div class="col-md-2 product pt-md-5 pt-4">
+                        <img src="./assets/18.jpg" alt="product 18" height=400 width="100%">
+                    </div>
+
+                    <div class="col-md-2 product pt-md-5 pt-4">
+                        <img src="./assets/19.jpg" alt="product 19"height=400 width="100%">
+                    </div>
+
+                    <div class="col-md-2 product pt-md-5 pt-4">
+                        <img src="./assets/20.jpg" alt="product 20" height=400 width="100%">
+                    </div>
+
+                    <div class="col-md-2 product pt-md-5 pt-4">
+                        <img src="./assets/21.jpg" alt="product 21" height=400 width="100%">
+                    </div>
+
+                    <div class="col-md-2 product pt-md-5 pt-4">
+                        <img src="./assets/22.jpg" alt="product 22" height=400 width="100%">
+                    </div>
+
+                    <div class="col-md-2 product pt-md-5 pt-4">
+                        <img src="./assets/23.jpg" alt="product 23" height=400 width="100%">
+                    </div>
+
+                    <div class="col-md-2 product pt-md-5 pt-4">
+                        <img src="./assets/24.jpg" alt="product 24" height=400 width="100%">
+                    </div>
+
+                    <div class="col-md-2 product pt-md-5 pt-4">
+                        <img src="./assets/25.jpg" alt="product 25" height=400 width="100%">
+                    </div>
+
+                    <div class="col-md-2 product pt-md-5 pt-4">
+                        <img src="./assets/26.jpg" alt="product 26" height=400 width="100%">
+                    </div>
+
+                    <div class="col-md-2 product pt-md-5 pt-4">
+                        <img src="./assets/27.jpg" alt="product 27" height=400 width="100%">
+                    </div>
+
+                    <div class="col-md-2 product pt-md-5 pt-4">
+                        <img src="./assets/28.jpg" alt="product 28" height=400 width="100%">
+                    </div>
+
+                    <div class="col-md-2 product pt-md-5 pt-4">
+                        <img src="./assets/29.jpg" alt="product 29" height=400 width="100%">
+                    </div>
+
+                    <div class="col-md-2 product pt-md-5 pt-4">
+                        <img src="./assets/30.jpg" alt="product 30" height=400 width="100%">
+                    </div>
+
+                    <div class="col-md-2 product pt-md-5 pt-4">
+                        <img src="./assets/31.jpg" alt="product 31" height=400 width="100%">
+                    </div>
+
+                    <div class="col-md-2 product pt-md-5 pt-4">
+                        <img src="./assets/32.jpg" alt="product 32" height=400 width="100%"> 
+                    </div>
+
+                    <div class="col-md-2 product pt-md-5 pt-4">
+                        <img src="./assets/33.jpg" alt="product 33" height=400 width="100%">
+                    </div>
+
+                    <div class="col-md-2 product pt-md-5 pt-4">
+                        <img src="./assets/34.jpg" alt="product 34" height=400 width="100%">
+                    </div>
+
+                    <div class="col-md-2 product pt-md-5 pt-4">
+                        <img src="./assets/35.jpg" alt="product 35" height=400 width="100%">
+                    </div>
+
+                    <div class="col-md-2 product pt-md-5 pt-4">
+                        <img src="./assets/36.jpg" alt="product 36" height=400 width="100%">
+                    </div>
+                </div>
+                <div class="slider-btn">
+                    <span class="prev position-top"><i class="fas fa-chevron-left fa-2x text-secondary"></i></span>
+                    <span class="next position-top right-0"><i class="fas fa-chevron-right fa-2x text-secondary"></i></span>
+                </div>
+            </div>
+
+        </div>
+        <!--End Infinite Products Slider-->
+        <br>
+        <br>
+        <br>
+        <div id="ih-estimate">
+            <img src="./assets/decoration.png" class="section-decoration" alt="decoration">
+            <h2 class="section-titles">Request in-home Estimate</h2>
+            <p class="section-subtitles">After filling the information below, we will contact you to confirm the requested appointment</p>
+        </div>
+        <br>
+        <br>
+        
+        <!--Designing send a request-->
+            <div class="contact-form">
+                <div class="input-fields">
+                    <form action="https://formspree.io/xyynekbn" method="POST">
+                        <input type="text" name="sender_name" class="input" placeholder="Name"/>
+                        <input type="email" name="sender_email" class="input email" placeholder="Email"/>
+                        <input type="text" name="sender_phone" class="input phone" placeholder="Phone Number"/>
+                        <input type="date" name="Date of visit" class="input" placeholder="Date for Visit"/>
+                        <input type="time" name="Time of visit" class="input" placeholder="Time for Visit"/>
+                        <input type="text" name="property-type" class="input" placeholder="Property Type (eg: Home, Business, etc.)"/>
+                        <input type="text" name="address" class="input" placeholder="Address">
+                        <input type="text" name="zip" class="input zip" placeholder="ZIP Code">
+                        <div class="msg">
+                            <Textarea class="message" name="extra-notes" placeholder="Extra Notes"></Textarea>
+                        </div>
+                        <button type="submit" class="submit btn">Send</button>
+                        <div class="status" style="color: red;">
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+        <!--End Designing-->
+
+        <!--MAYBE CONSIDER ADDING SEPARATORS BETWEEN SECTIONS?-->
+
+        <!--What our clients say-->
+        <br>
+        <br>
+        <br>
+
+        <div id="reviews">
+            <img src="./assets/decoration.png" class="section-decoration" alt="decoration">
+            <h2 class="section-titles">What our clients say</h2>
+            <p class="section-subtitles">We guarantee 100% customer satisfaction.</p>
+        </div>
+        <br>
+        <!--First Slider-->
+        <div class="container-fluid p-0"> 
+            <div class="site-slider">
+                <div class="slider-one">
+                    <div> <!--First carousel item-->
+                        <img src="./assets/review1.png" class="imgfluid?" height="800" width=100% alt="review1">
+                    </div>
+
+                    <div> <!--Second carousel item-->
+                        <img src="./assets/review2.png" class="imgfluid" height="800" width=100% alt="review2">
+                    </div>
+
+                    <div> <!--Third carousel item-->
+                        <img src="./assets/review3.png" class="imgfluid" height="800" width=100% alt="review3">
+                    </div>
+
+                    <div> <!--Fourth carousel item-->
+                        <img src="./assets/review4.png" class="imgfluid" height="800" width=100% alt="review4">
+                    </div>
+
+                    <div> <!--Fifth carousel item-->
+                        <img src="./assets/review5.png" class="imgfluid" height="800" width=100% alt="review4">
+                    </div>
+
+                </div>
+                <div class="slider-btn">
+                    <span class="prev position-top"><i class="fas fa-chevron-left"></i></span>
+                    <span class="next position-top right-0"><i class="fas fa-chevron-right"></i></span>
+                </div>
+            </div>
+        </div>
+        <!--End First Slider-->
+        <br>
+        <br>
+        <br>
+
+        <!--Store info and directions-->
+        <div id="info">
+            <img src="./assets/decoration.png" class="section-decoration" alt="decoration">
+            <h2 class="section-titles">Store information and directions</h2>
+            <br>
+            <p class="section-subtitles"><strong>Phone:</strong> (248) 800-7700 </p>
+            <p class="section-subtitles"><strong>Hours:</strong></p>
+            <p class="section-subtitles">Monday-Friday: 8AM to 6PM </p>
+            <p class="section-subtitles">Saturday: 8AM to 5PM </p>
+            <p class="section-subtitles">Sunday: Closed</p>
+            <p class="section-subtitles"><strong>Email:</strong> theflooringshopus@gmail.com </p>
+            <p class="section-subtitles"><strong>Store Address</strong> 21500 8 Mile Rd, Southfield, Michigan </p>
+            <br>
+            <iframe style="width: 100%;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2944.2207237042558!2d-83.25688748454101!3d42.44431957918137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8824b71f5d31d389%3A0xdf559b00f1f613ca!2sthe%20flooring%20shop!5e0!3m2!1sen!2sus!4v1590486338412!5m2!1sen!2sus" width="800" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <br>
+            <br>
+        </div>
+        <!--End store info and directions-->
+    </main>
+
+    <!--Footer-->
+    <footer class="footer-style">
+        <br>
+        <p class="section-footer">Copyright- The flooring shop - 2020</p>
+        
+        <br>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 
+    crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" 
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" 
+    crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" 
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" 
+    crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
